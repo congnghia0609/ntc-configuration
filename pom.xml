@@ -89,7 +89,7 @@
 					<archive>
 						<addMavenDescriptor>false</addMavenDescriptor>
 						<manifest>
-							<!--<mainClass>com.mit.worker.app.MainApp</mainClass>-->
+							<!--<mainClass>com.ntc.app.MainApp</mainClass>-->
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
 						</manifest>
