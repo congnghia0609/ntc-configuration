@@ -33,7 +33,6 @@ public class NConfig {
     private static CompositeConfiguration CONFIG_PROPERTIES = null;
 
 	public static final String ENV = System.getProperty("app_env", "development");
-
 	private static Lock lock = new ReentrantLock();
 	private static String confDir = System.getProperty("confdir", "conf");
 
